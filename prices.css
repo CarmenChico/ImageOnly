@@ -1,0 +1,101 @@
+nav {
+  padding-top: 3px;
+}
+
+nav span {
+  font-size: 13px;
+  color: grey;
+  border: 2px solid lightgreen;
+  margin-left: 17px;
+  margin-top: 8px;
+}
+nav span.Pricing {
+  color: black;
+}
+
+div#background {
+  overflow:hidden;
+  width:94.5%;
+  height: 330px;
+  margin-left: 0px;
+  margin-top: 8px;
+}
+
+ul {
+  list-style: none;
+}
+ul.box {
+  padding-left: 0px;
+  background-color: green;
+  border: 2px solid green;
+  padding: 0px;
+}
+ul.included {
+  padding-left:0px;
+}
+.included li {
+  background-color: 247;
+  border: 1px solid lightgrey
+}
+div.section {
+  float:left;
+  text-align: center;
+  margin: 5px;
+}
+/*li.price span{
+  font-style: none;
+  font-size: 100px;
+  height: 100px;
+}*/
+
+span{
+  color: white;
+  font-weight: 400;
+}
+
+#choose span {
+  color: black;
+  font-weight: 550;
+}
+
+.title span {
+  color: black;
+}
+
+p {
+  font-size: 12px;
+}
+ul.row {
+  position: relative;
+  display:inline-block;
+  box-sizing: content-box;
+  border-color: pink;
+  }
+
+div.title {
+  position: relative;
+  display:inline-block;
+  box-sizing: content-box;
+}
+div#footer {
+    background-color:black;
+    padding: 24px;
+    text-align: center;
+
+
+}
+#footer {
+  display: inline-block;
+  width: 1052px;
+  border: 2px solid lightgreen;
+
+
+}
+#footer span {
+  color: grey;
+  font-size: 14px;
+
+}
+a {
+  color: white;
+}
