@@ -195,14 +195,15 @@ p {
   margin:auto;
   overflow: hidden;
   /*overflow: auto;*/
-  width: 30%;
-  padding-left: 20px;
+  padding-left: 15%;
+  padding-right: 10%;
   /*text-align: left;*/
+  align-content: center;
 
 
 }
 .summary {
-  width: 365px
+  width: 365px;
   margin: 10px;
   float:left;
   /*border: 1px solid black;*/
@@ -217,7 +218,7 @@ p {
 
     /*border: 1px solid green;*/
 }
-
+ /*------FOOTER ------- */
 div#footer {
     background-color:black;
     padding: 24px;
