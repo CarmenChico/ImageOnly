@@ -1,3 +1,18 @@
+ /*whole page edits*/
+
+* {box-sizing: border-box;
+}
+
+ li {
+    list-style: none;
+}
+.page {
+  width: 1100px;
+}
+
+
+/*nav bar*/
+
 nav {
   padding-top: 1px;
 }
@@ -13,9 +28,7 @@ nav span.Pricing {
   color: black;
 }
 
-.page {
-  width: 1100px;
-}
+/* image below nav*/
 
 div#background {
   overflow:hidden;
@@ -25,7 +38,7 @@ div#background {
   margin-top: 7px;
   position: relative;
 }
-
+/* words infront of image. Line 1*/
 h2 {
   position: absolute;
   top:98px;
@@ -33,6 +46,7 @@ h2 {
   text-align: center;
 }
 
+/* words infront of image. Line 2*/
 h2 p {
   color: white;
   font-size: 39px;
@@ -41,24 +55,66 @@ h2 p {
   /*letter-spacing: 1px*/
 
 }
-div#part2 {
+
+ /*second seciton w/ 3 boxes*/
+
+#part2 {
   padding-left: 14%;
   margin-top: 23px;
 }
 
-ul {
-  list-style: none;
+/*houses 3 boxes*/
+.section {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  /*display: inline;*/
+  /*float:left;*/
+  text-align: center;
+  margin: 5px;
+  border: 1px solid lightgrey;
+
 }
-ul.box {
+
+/*3 individual boxes*/
+ul.box1 {
   height:177px;
   padding-left: 0px;
-  background-color: #2D4981;
+  background-color: #539054;
   border: 2px solid grey;
   padding: 0px;
   margin-bottom: 0px;
+  padding-top: 30px;
+  margin: 0px;
 
 }
-.price {
+
+ul.box2 {
+  height:177px;
+  padding-left: 0px;
+  background-color: #2E4A83;
+  border: 2px solid grey;
+  padding: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  margin: 0px;
+
+}
+
+ul.box3 {
+  height:177px;
+  padding-left: 0px;
+  background-color: #111111;
+  border: 2px solid grey;
+  padding: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  margin: 0px;
+
+}
+
+
+div.price {
   font-size: 70px;
   font-weight: 100;
 }
@@ -69,21 +125,16 @@ ul.box {
 
 ul.included {
   padding-left:0px;
-  margin:0px
+  margin:0px;
+
 }
 .included li {
-  background-color: 247;
-  border: 1px solid lightgrey
+  background-color:#F7F7F7;
+  border: 1px solid lightgrey;
+  padding: 10px;
 }
-.section {
-  display: inline-block;
-  vertical-align: top;
-  width: 250px;
-  /*display: inline;*/
-  /*float:left;*/
-  text-align: center;
-  margin: 5px;
-}
+
+
 /*li.price span{
   font-style: none;
   font-size: 100px;
@@ -95,9 +146,16 @@ span{
   font-weight: 400;
 }
 
-#button span {
+#button {
+  border: 1px solid lightgrey;
   color: black;
-  font-weight: 550;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
 }
 
 p {
@@ -120,42 +178,52 @@ p {
 /*#col h3 {
   border: 3px lightgrey;*/
 }
-h3 span {
-  color: black;
+
+/*h3 span {
+  color: black;*/
+/*
+}*/
+
+/*bottom 4 boxes*/
+
+#boxes {
+  clear: both;
+  text-align: center;
 }
-#col ul {
+
+.etc {
   margin:auto;
-  overflow: auto;
-  width: 71%;
-  /*padding: 5px;*/
-  border:1px solid green;
+  overflow: hidden;
+  width: 30%;
+  padding-left: 20px;
+  text-align: left;
+
+
 }
-.summary {
+#summary {
   width: 365px
   margin: 10px;
   float:left;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  padding-bottom: 0px;
+  padding-left: 11px;
+  /*clear: both;*/
+
 }
 
-.header   {
-    border: 1px solid green;
+#header span   {
+  color: black;
+
+    /*border: 1px solid green;*/
 }
 
-div.title {
-  position: relative;
-  display:inline-block;
-  box-sizing: content-box;
-}
 div#footer {
     background-color:black;
     padding: 24px;
     text-align: center;
-
-
 }
 #footer {
-  /*display: inline-block;*/
-  /*width: 1052px;*/
+
   border: 2px solid lightgreen;
 
 
