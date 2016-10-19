@@ -177,7 +177,7 @@ p {
   }
 /*#col h3 {
   border: 3px lightgrey;*/
-}
+/*}*/
 
 /*h3 span {
   color: black;*/
@@ -188,19 +188,20 @@ p {
 
 #boxes {
   clear: both;
-  text-align: center;
+  text-align: left;
 }
 
 .etc {
   margin:auto;
   overflow: hidden;
+  /*overflow: auto;*/
   width: 30%;
   padding-left: 20px;
-  text-align: left;
+  /*text-align: left;*/
 
 
 }
-#summary {
+.summary {
   width: 365px
   margin: 10px;
   float:left;
@@ -211,7 +212,7 @@ p {
 
 }
 
-#header span   {
+.header span   {
   color: black;
 
     /*border: 1px solid green;*/
